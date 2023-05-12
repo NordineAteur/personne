@@ -4,9 +4,16 @@ import outils.Alexis;
 import outils.Didier;
 import outils.Nicolas;
 import outils.Mouhab;
+import outils.Wassim;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
+        Wassim w = new Wassim();
+        w.exercice();
+
+    System.out.println("\n");
+
         System.out.println("Bonjour (main)");
         Fonctions.ecrire("ce texte est affiché avec la fonction ecrire");
 
@@ -72,6 +79,8 @@ public class Main {
 
         Alexis a = new Alexis();
         a.exercice();
+         
+
     }
 }
 
