@@ -1,12 +1,20 @@
 import outils.Personne;
 import outils.modules.Fonctions;
 import outils.Didier;
+import outils.Nicolas;
 import outils.Mouhab;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Bonjour (main)");
         Fonctions.ecrire("ce texte est affiché avec la fonction ecrire");
+
+        System.out.println("++++++++++++++++++++++");
+
+        Nicolas nicolas = new Nicolas();
+        nicolas.exercice();
+
+        System.out.println("++++++++++++++++++++++");
 
 
         /** Lorsqu'on déclare une variable de type objet, on dit
