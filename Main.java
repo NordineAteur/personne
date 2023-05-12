@@ -1,5 +1,6 @@
 import outils.Personne;
 import outils.modules.Fonctions;
+import outils.Didier;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,16 +26,6 @@ public class Main {
         p1.setAge(25);
         System.out.println("Identité de p1 :" + p1.identite());
 
-        /* 
-         * EXERCICES : 
-         * 1. Déclarer un tableau d'objets Personne.
-         * 2. Remplir le tableau avec les données utilisées
-         *    dans exempleArray.java (ou dans https://sharemycode.fr/mardi10)
-         * 3. Affichez toutes les identités des personnes (en utilisant la méthode identite()).
-         * 4. ajoutez un constructeur qui permet d'instancier 
-         *      une personne en définissant directement son prénom, 
-         *      son nom et son âge.
-         */
         Personne[] tableauPersonnes = new Personne[10];
         for (int i = 0; i < tableauPersonnes.length; i++) {
             tableauPersonnes[i] = new Personne();
@@ -56,6 +47,10 @@ public class Main {
             Une variable de type objet qui n'a pas été initialisée 
             est considéré comme étant NULL.
          */
+        System.out.println("\n\n\n\n\n\n");
+        // Didier.exercice();
+        Didier d = new Didier();
+        d.exercice();
 
     }
 
