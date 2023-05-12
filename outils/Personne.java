@@ -63,8 +63,4 @@ public class Personne {
     public void setAge(int age) {
         this.age = age;
     }
-
-    public void epouser(Personne conjoint) {
-        Fonctions.ecrire("Veux-tu m'épouser " + conjoint.identite() + " ?");
-    }
 }
