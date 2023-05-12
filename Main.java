@@ -1,8 +1,15 @@
 import outils.Personne;
 import outils.modules.Fonctions;
+import outils.Wassim;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
+        Wassim w = new Wassim();
+        w.exercice();
+
+    System.out.println("\n");
+
         System.out.println("Bonjour (main)");
         Fonctions.ecrire("ce texte est affiché avec la fonction ecrire");
 
@@ -56,6 +63,8 @@ public class Main {
             Une variable de type objet qui n'a pas été initialisée 
             est considéré comme étant NULL.
          */
+
+         
 
     }
 
