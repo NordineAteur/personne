@@ -1,6 +1,7 @@
 import outils.Personne;
 import outils.modules.Fonctions;
 import outils.Didier;
+import outils.Mouhab;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,6 +52,9 @@ public class Main {
         // Didier.exercice();
         Didier d = new Didier();
         d.exercice();
+        System.out.println("utilisation git ----");
+        Mouhab mouhab = new Mouhab();
+        mouhab.exercice();
 
     }
 
