@@ -1,5 +1,7 @@
 package outils;
 
+import outils.modules.Fonctions;
+
 public class Personne {
     /**
      *  Les PROPRIÉTÉS (ou ATTRIBUTS) définies dans une classe
@@ -60,5 +62,8 @@ public class Personne {
 
     public void setAge(int age) {
         this.age = age;
+    }
+    public void epouser(Personne conjoint){
+        Fonctions.ecrire("veux-tu m'epouser" + conjoint.identite()+ "?");
     }
 }

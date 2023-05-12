@@ -1,6 +1,7 @@
 import outils.Personne;
 import outils.modules.Fonctions;
 import outils.Nicolas;
+import outils.Mouhab;
 
 public class Main {
     public static void main(String[] args) {
@@ -64,6 +65,9 @@ public class Main {
             Une variable de type objet qui n'a pas été initialisée 
             est considéré comme étant NULL.
          */
+        System.out.println("utilisation git ----");
+        Mouhab mouhab = new Mouhab();
+        mouhab.exercice();
 
     }
 
