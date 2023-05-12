@@ -1,12 +1,14 @@
 import outils.Personne;
 import outils.modules.Fonctions;
+import outils.Mouhab;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Bonjour (main)");
         Fonctions.ecrire("ce texte est affiché avec la fonction ecrire");
 
-
+        Mouhab mouhab = new Mouhab();
+        mouhab.exercice();
         /** Lorsqu'on déclare une variable de type objet, on dit
          * que l'on fait une INSTANCIATION.
          * Un objet est une INSTANCE d'une classe. */  
