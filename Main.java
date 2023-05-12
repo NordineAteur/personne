@@ -1,5 +1,6 @@
 import outils.Personne;
 import outils.modules.Fonctions;
+import outils.Alexis;
 
 public class Main {
     public static void main(String[] args) {
@@ -57,9 +58,13 @@ public class Main {
             est considéré comme étant NULL.
          */
 
+        
+
+        System.out.println("\n\n");
+        // Alexis.exercice();
+
+        Alexis a = new Alexis();
+        a.exercice();
     }
-
-
-
 }
 
