@@ -7,8 +7,7 @@ public class Main {
         System.out.println("Bonjour (main)");
         Fonctions.ecrire("ce texte est affiché avec la fonction ecrire");
 
-        Mouhab mouhab = new Mouhab();
-        mouhab.exercice();
+
         /** Lorsqu'on déclare une variable de type objet, on dit
          * que l'on fait une INSTANCIATION.
          * Un objet est une INSTANCE d'une classe. */  
@@ -58,6 +57,9 @@ public class Main {
             Une variable de type objet qui n'a pas été initialisée 
             est considéré comme étant NULL.
          */
+        System.out.println("utilisation git ----");
+        Mouhab mouhab = new Mouhab();
+        mouhab.exercice();
 
     }
 
