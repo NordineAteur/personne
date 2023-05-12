@@ -1,6 +1,5 @@
-/**
- * 
- */
+package outils;
+
 public class Personne {
     /**
      *  Les PROPRIÉTÉS (ou ATTRIBUTS) définies dans une classe
